@@ -2,7 +2,7 @@ import { FC } from 'react';
 import styled from 'styled-components';
 
 const Header: FC = () => {
-  return <Wrapper>Header</Wrapper>;
+  return <Wrapper>オンライン商店街</Wrapper>;
 };
 
 export default Header;
