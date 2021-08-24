@@ -12,8 +12,10 @@ export interface StoreType {
 export interface StoreLinkType {
   title: string;
   url: string;
-  x: number;
-  y: number;
+  left?: number;
+  right?: number;
+  top?: number;
+  bottom?: number;
 }
 
 export interface StoreItemType {

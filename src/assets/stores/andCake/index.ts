@@ -8,7 +8,26 @@ import andCakeItem6 from '@/assets/stores/andCake/itemImages/and_cake_item_6.jpe
 import andCakeItem7 from '@/assets/stores/andCake/itemImages/and_cake_item_7.jpeg';
 import andCakeItem8 from '@/assets/stores/andCake/itemImages/and_cake_item_8.jpeg';
 
-const LINKS = [{ title: '', url: '', x: 0, y: 0 }];
+const LINKS = [
+  {
+    title: 'オンラインストアへ',
+    url: 'http://andcake.jp/',
+    right: 80,
+    top: 250,
+  },
+  {
+    title: 'AND CAKE について',
+    url: 'http://andcake.jp/view/company',
+    left: 60,
+    top: 300,
+  },
+  {
+    title: 'NEWS お知らせ',
+    url: 'http://andcake.jp/view/news/list',
+    right: 170,
+    bottom: 120,
+  },
+];
 
 const ITEMS = [
   {
