@@ -39,8 +39,9 @@ const Wrapper = styled.a<{
   box-sizing: border-box;
   border-radius: 20px;
   background-color: ${COLORS.WHITE};
+  font-size: 14px;
   text-decoration: none;
-  box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.6);
 
   position: absolute;
   ${({ left, right, top, bottom }) => css`
@@ -51,10 +52,10 @@ const Wrapper = styled.a<{
   `}
 
   @media ${MEDIA_QUERY.SP} {
-    font-size: 12px;
     height: 30px;
-    border-radius: 15px;
     padding: 5px 20px;
+    border-radius: 15px;
+    font-size: 12px;
 
     ${({ left, right, top, bottom }) => css`
       left: ${left && left - 30 + 'px'};
