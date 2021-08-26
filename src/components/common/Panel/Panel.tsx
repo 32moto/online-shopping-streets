@@ -13,5 +13,5 @@ const Wrapper = styled.div`
   box-sizing: border-box;
   border-radius: 16px;
   background-color: ${COLORS.WHITE};
-  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
 `;
