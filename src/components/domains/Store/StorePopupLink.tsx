@@ -42,7 +42,8 @@ const Wrapper = styled.a<{
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.6);
+  transition: all 0.2s ease;
 
   position: absolute;
   ${({ left, right, top, bottom }) => css`
@@ -51,6 +52,10 @@ const Wrapper = styled.a<{
     top: ${top && top + 'px'};
     bottom: ${bottom && bottom + 'px'};
   `}
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   @media ${MEDIA_QUERY.SP} {
     height: 30px;
