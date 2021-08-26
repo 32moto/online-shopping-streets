@@ -40,6 +40,7 @@ const Wrapper = styled.a<{
   border-radius: 20px;
   background-color: ${COLORS.WHITE};
   font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
   box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.6);
 
