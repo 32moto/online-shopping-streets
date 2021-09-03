@@ -40,5 +40,6 @@ const ImageWrapper = styled.div`
 `;
 
 const Title = styled.h3`
+  font-size: 18px;
   margin-left: 10px;
 `;
