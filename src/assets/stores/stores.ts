@@ -3,10 +3,12 @@ import { AND_CAKE } from '@/assets/stores/andCake';
 import { MINIFILM } from '@/assets/stores/minifilm';
 import { PATISSERIE_TOMOJI } from '@/assets/stores/patisserieTomoji';
 import { BBB } from '@/assets/stores/bbb';
+import { ISSENKA } from '@/assets/stores/issenka';
 
 export const STORES: StoresType = {
   and_cake: AND_CAKE,
   minifilm: MINIFILM,
   patisserie_tomoji: PATISSERIE_TOMOJI,
   bbb: BBB,
+  issenka: ISSENKA,
 };
