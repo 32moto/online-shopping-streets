@@ -1,12 +1,12 @@
 import storeImage from '@/assets/stores/minifilm/storeImage/minifilm_image.png';
-import minifilm1 from '@/assets/stores/minifilm/itemImages/minifilm_1.jpeg';
-import minifilm2 from '@/assets/stores/minifilm/itemImages/minifilm_2.jpeg';
-import minifilm3 from '@/assets/stores/minifilm/itemImages/minifilm_3.jpeg';
-import minifilm4 from '@/assets/stores/minifilm/itemImages/minifilm_4.jpeg';
-import minifilm5 from '@/assets/stores/minifilm/itemImages/minifilm_5.jpeg';
-import minifilm6 from '@/assets/stores/minifilm/itemImages/minifilm_6.jpeg';
-import minifilm7 from '@/assets/stores/minifilm/itemImages/minifilm_7.jpeg';
-import minifilm8 from '@/assets/stores/minifilm/itemImages/minifilm_8.jpeg';
+import minifilmItem1 from '@/assets/stores/minifilm/itemImages/minifilm_item_1.jpeg';
+import minifilmItem2 from '@/assets/stores/minifilm/itemImages/minifilm_item_2.jpeg';
+import minifilmItem3 from '@/assets/stores/minifilm/itemImages/minifilm_item_3.jpeg';
+import minifilmItem4 from '@/assets/stores/minifilm/itemImages/minifilm_item_4.jpeg';
+import minifilmItem5 from '@/assets/stores/minifilm/itemImages/minifilm_item_5.jpeg';
+import minifilmItem6 from '@/assets/stores/minifilm/itemImages/minifilm_item_6.jpeg';
+import minifilmItem7 from '@/assets/stores/minifilm/itemImages/minifilm_item_7.jpeg';
+import minifilmItem8 from '@/assets/stores/minifilm/itemImages/minifilm_item_8.jpeg';
 
 const LINKS = [
   {
@@ -33,42 +33,42 @@ const ITEMS = [
   {
     name: 'バターサンド4種詰め合わせ　8個入り　【9月限定】',
     url: 'https://minifilm.base.shop/items/51441281',
-    image: minifilm1,
+    image: minifilmItem1,
   },
   {
     name: 'フロマージュキュイ【ベイクドチーズケーキ】',
     url: 'https://minifilm.base.shop/items/50523020',
-    image: minifilm2,
+    image: minifilmItem2,
   },
   {
     name: 'レーズンバターサンドショコラ　6個入り',
     url: 'https://minifilm.base.shop/items/49076521',
-    image: minifilm3,
+    image: minifilmItem3,
   },
   {
     name: 'ライチフランボワーズバターサンド　6個入り　【夏季限定】',
     url: 'https://minifilm.base.shop/items/47661506',
-    image: minifilm4,
+    image: minifilmItem4,
   },
   {
     name: 'プラリネバターサンド ６個入り',
     url: 'https://minifilm.base.shop/items/44425982',
-    image: minifilm5,
+    image: minifilmItem5,
   },
   {
     name: 'レーズンバターサンド６個入り',
     url: 'https://minifilm.base.shop/items/42136282',
-    image: minifilm6,
+    image: minifilmItem6,
   },
   {
     name: 'ケークフリュイルージュ　【パウンドケーキ　ベリー】',
     url: 'https://minifilm.base.shop/items/46359130',
-    image: minifilm7,
+    image: minifilmItem7,
   },
   {
     name: 'フィナンシエ 単品',
     url: 'https://minifilm.base.shop/items/43964273',
-    image: minifilm8,
+    image: minifilmItem8,
   },
 ];
 

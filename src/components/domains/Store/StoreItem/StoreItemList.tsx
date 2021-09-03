@@ -14,7 +14,7 @@ const StoreItemList: FC<{ items: StoreType['items'] }> = ({ items }) => {
     <Wrapper>
       <Panel>
         <Stack>
-          <ItemTitle>Items</ItemTitle>
+          <ItemTitle>商品一覧</ItemTitle>
           <ItemWrapper>
             <LineUp>
               {items.map((item, i) => (
