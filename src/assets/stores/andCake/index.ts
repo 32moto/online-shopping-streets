@@ -6,7 +6,6 @@ import andCakeItem4 from '@/assets/stores/andCake/itemImages/and_cake_item_4.jpe
 import andCakeItem5 from '@/assets/stores/andCake/itemImages/and_cake_item_5.jpeg';
 import andCakeItem6 from '@/assets/stores/andCake/itemImages/and_cake_item_6.jpeg';
 import andCakeItem7 from '@/assets/stores/andCake/itemImages/and_cake_item_7.jpeg';
-import andCakeItem8 from '@/assets/stores/andCake/itemImages/and_cake_item_8.jpeg';
 
 const LINKS = [
   {
@@ -65,11 +64,11 @@ const ITEMS = [
     url: 'http://andcake.jp/view/item/000000000006',
     image: andCakeItem7,
   },
-  {
-    name: 'テリーヌ ショコラ クラシック',
-    url: 'http://andcake.jp/view/item/000000000016',
-    image: andCakeItem8,
-  },
+  // {
+  //   name: 'テリーヌ ショコラ クラシック',
+  //   url: 'http://andcake.jp/view/item/000000000016',
+  //   image: andCakeItem8,
+  // },
 ];
 
 export const AND_CAKE = {
