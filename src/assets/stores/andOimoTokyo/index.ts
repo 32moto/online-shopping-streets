@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/andOimoTokyo/storeImage/and_oimo_tokyo_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/andOimoTokyo/itemImages/and_oimo_tokyo_item_1.png';
 import item2 from '@/assets/stores/andOimoTokyo/itemImages/and_oimo_tokyo_item_2.png';
 
@@ -33,6 +34,11 @@ const ITEMS = [
     name: '蜜芋バスクチーズケーキ（ギフトラッピング）',
     url: 'https://www.and-oimo-tokyo.com/product-page/mitsuimobasque-gift',
     image: item2,
+  },
+  {
+    name: '',
+    url: 'https://www.and-oimo-tokyo.com/shop',
+    image: readMore,
   },
 ];
 

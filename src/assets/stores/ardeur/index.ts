@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/ardeur/storeImage/ardeur.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/ardeur/itemImages/ardeur_item_1.jpeg';
 import item2 from '@/assets/stores/ardeur/itemImages/ardeur_item_2.jpg';
 import item3 from '@/assets/stores/ardeur/itemImages/ardeur_item_3.jpeg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: '焼菓子16個詰め合わせ',
     url: 'https://ardeur.stores.jp/items/5ece0ded5157622946174e8d',
     image: item8,
+  },
+  {
+    name: '',
+    url: 'https://ardeur.stores.jp/',
+    image: readMore,
   },
 ];
 
