@@ -25,7 +25,7 @@ const LINKS = [
     title: 'Youtube Channel',
     url: 'https://www.youtube.com/c/TsukaTsukaMinifilm',
     right: 170,
-    bottom: 150,
+    bottom: 100,
   },
 ];
 
