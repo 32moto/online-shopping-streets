@@ -38,7 +38,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const ItemTitle = styled.h2`
+const ItemTitle = styled.h3`
   align-self: flex-start;
   margin: 10px 30px;
 
