@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/magiaMadeleine/storeImage/magia_madeleine_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_1.jpg';
 import item2 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_2.jpg';
 import item3 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_3.jpg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'マドレーヌ ラムレーズン',
     url: 'https://onlineshop.itc-magia.com/items/17068231',
     image: item8,
+  },
+  {
+    name: '',
+    url: 'https://onlineshop.itc-magia.com/',
+    image: readMore,
   },
 ];
 

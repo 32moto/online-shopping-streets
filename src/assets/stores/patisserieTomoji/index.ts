@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/patisserieTomoji/storeImage/patisserie_tomoji_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/patisserieTomoji/itemImages/patisserie_tomoji_item_1.jpeg';
 import item2 from '@/assets/stores/patisserieTomoji/itemImages/patisserie_tomoji_item_2.jpeg';
 import item3 from '@/assets/stores/patisserieTomoji/itemImages/patisserie_tomoji_item_3.jpeg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'テリーヌ・ショコラ',
     url: 'https://ec.patisserie-tomoji.com/items/28018134',
     image: item8,
+  },
+  {
+    name: '',
+    url: 'https://ec.patisserie-tomoji.com/',
+    image: readMore,
   },
 ];
 

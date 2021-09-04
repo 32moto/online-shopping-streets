@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/issenka/storeImage/issenka_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/issenka/itemImages/issenka_item_1.jpeg';
 import item2 from '@/assets/stores/issenka/itemImages/issenka_item_2.jpeg';
 import item3 from '@/assets/stores/issenka/itemImages/issenka_item_3.jpeg';
@@ -51,6 +52,11 @@ const ITEMS = [
     name: '花紅【ほうじ茶テリーヌショコラ】4個 簡易包装',
     url: 'https://issenka.com/products/%E8%8A%B1%E7%B4%85%E3%83%86%E3%83%AA%E3%83%BC%E3%83%8C%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%A9%EF%BC%92%E7%A8%AE%E8%A9%B0%E3%82%81%E5%90%88%E3%82%8F%E3%81%9B',
     image: item5,
+  },
+  {
+    name: '',
+    url: 'https://issenka.com/collections/frontpage',
+    image: readMore,
   },
 ];
 

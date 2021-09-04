@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/bbb/storeImage/bbb_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/bbb/itemImages/bbb_item_1.jpeg';
 import item2 from '@/assets/stores/bbb/itemImages/bbb_item_2.jpeg';
 import item3 from '@/assets/stores/bbb/itemImages/bbb_item_3.jpeg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'Wチョコレート',
     url: 'https://buttersand-bbb.com/products/w%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88',
     image: item6,
+  },
+  {
+    name: '',
+    url: 'https://buttersand-bbb.com/',
+    image: readMore,
   },
 ];
 

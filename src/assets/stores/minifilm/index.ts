@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/minifilm/storeImage/minifilm_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/minifilm/itemImages/minifilm_item_1.jpeg';
 import item2 from '@/assets/stores/minifilm/itemImages/minifilm_item_2.jpeg';
 import item3 from '@/assets/stores/minifilm/itemImages/minifilm_item_3.jpeg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'フィナンシエ 単品',
     url: 'https://minifilm.base.shop/items/43964273',
     image: item8,
+  },
+  {
+    name: '',
+    url: 'https://minifilm.base.shop/',
+    image: readMore,
   },
 ];
 

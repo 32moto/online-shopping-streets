@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/andCake/storeImage/and_cake_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/andCake/itemImages/and_cake_item_1.jpeg';
 import item2 from '@/assets/stores/andCake/itemImages/and_cake_item_2.jpeg';
 import item3 from '@/assets/stores/andCake/itemImages/and_cake_item_3.jpeg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'マカロン ５Ｐ［ミディ］',
     url: 'http://andcake.jp/view/item/000000000006',
     image: item7,
+  },
+  {
+    name: '',
+    url: 'http://andcake.jp/view/category/all_items',
+    image: readMore,
   },
 ];
 

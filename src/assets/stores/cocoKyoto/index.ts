@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/cocoKyoto/storeImage/coco_kyoto_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/cocoKyoto/itemImages/coco_kyoto_item_1.jpg';
 import item2 from '@/assets/stores/cocoKyoto/itemImages/coco_kyoto_item_2.jpeg';
 import item3 from '@/assets/stores/cocoKyoto/itemImages/coco_kyoto_item_3.jpeg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'Brownie【くるみ】5個入り',
     url: 'https://shop.coco-cacao.jp/items/37687166',
     image: item8,
+  },
+  {
+    name: '',
+    url: 'https://shop.coco-cacao.jp/',
+    image: readMore,
   },
 ];
 

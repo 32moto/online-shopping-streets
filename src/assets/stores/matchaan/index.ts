@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/matchaan/storeImage/matchaan_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/matchaan/itemImages/matchaan_item_1.jpeg';
 import item2 from '@/assets/stores/matchaan/itemImages/matchaan_item_2.jpeg';
 import item3 from '@/assets/stores/matchaan/itemImages/matchaan_item_3.jpeg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'モンスターボアタルト(抹茶のレアチーズタルト)',
     url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/tarte',
     image: item8,
+  },
+  {
+    name: '',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84',
+    image: readMore,
   },
 ];
 

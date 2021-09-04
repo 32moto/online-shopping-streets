@@ -1,4 +1,5 @@
 import storeImage from '@/assets/stores/shodaiBioNature/storeImage/shodai_bio_nature_image.png';
+import readMore from '@/assets/stores/common/item_read_more.png';
 import item1 from '@/assets/stores/shodaiBioNature/itemImages/shodai_bio_nature_item_1.jpg';
 import item2 from '@/assets/stores/shodaiBioNature/itemImages/shodai_bio_nature_item_2.jpg';
 import item3 from '@/assets/stores/shodaiBioNature/itemImages/shodai_bio_nature_item_3.jpg';
@@ -69,6 +70,11 @@ const ITEMS = [
     name: 'パウンドケイク マロングラッセと栗の渋皮煮',
     url: 'https://shodaibionature.net/collections/2021autumn/products/poundcake_marronglace',
     image: item8,
+  },
+  {
+    name: '',
+    url: 'https://shodaibionature.net/',
+    image: readMore,
   },
 ];
 
