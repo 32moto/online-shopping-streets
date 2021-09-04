@@ -1,29 +1,29 @@
-import storeImage from '@/assets/stores/minifilm/storeImage/minifilm_image.png';
-import minifilmItem1 from '@/assets/stores/minifilm/itemImages/minifilm_item_1.jpeg';
-import minifilmItem2 from '@/assets/stores/minifilm/itemImages/minifilm_item_2.jpeg';
-import minifilmItem3 from '@/assets/stores/minifilm/itemImages/minifilm_item_3.jpeg';
-import minifilmItem4 from '@/assets/stores/minifilm/itemImages/minifilm_item_4.jpeg';
-import minifilmItem5 from '@/assets/stores/minifilm/itemImages/minifilm_item_5.jpeg';
-import minifilmItem6 from '@/assets/stores/minifilm/itemImages/minifilm_item_6.jpeg';
-import minifilmItem7 from '@/assets/stores/minifilm/itemImages/minifilm_item_7.jpeg';
-import minifilmItem8 from '@/assets/stores/minifilm/itemImages/minifilm_item_8.jpeg';
+import storeImage from '@/assets/stores/magiaMadeleine/storeImage/magia_madeleine_image.png';
+import item1 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_1.jpg';
+import item2 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_2.jpg';
+import item3 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_3.jpg';
+import item4 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_4.jpg';
+import item5 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_5.jpg';
+import item6 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_6.jpg';
+import item7 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_7.jpg';
+import item8 from '@/assets/stores/magiaMadeleine/itemImages/magia_madeleine_item_8.jpg';
 
 const LINKS = [
   {
     title: 'オンラインストアへ',
-    url: 'https://minifilm.base.shop/',
+    url: 'https://onlineshop.itc-magia.com/',
     right: 80,
     top: 250,
   },
   {
-    title: 'Minifilm について',
-    url: 'https://minifilm.base.shop/about',
+    title: 'マギーア マドレーヌについて',
+    url: 'https://onlineshop.itc-magia.com/about',
     left: 60,
     top: 300,
   },
   {
-    title: 'Youtube Channel',
-    url: 'https://www.youtube.com/c/TsukaTsukaMinifilm',
+    title: 'Instagram',
+    url: 'https://www.instagram.com/magia_madeleine',
     right: 170,
     bottom: 150,
   },
@@ -31,44 +31,44 @@ const LINKS = [
 
 const ITEMS = [
   {
-    name: 'バターサンド4種詰め合わせ　8個入り　【9月限定】',
-    url: 'https://minifilm.base.shop/items/51441281',
-    image: minifilmItem1,
+    name: '8種類セット',
+    url: 'https://onlineshop.itc-magia.com/items/15172219',
+    image: item1,
   },
   {
-    name: 'フロマージュキュイ【ベイクドチーズケーキ】',
-    url: 'https://minifilm.base.shop/items/50523020',
-    image: minifilmItem2,
+    name: 'マドレーヌ エクストラバニラ',
+    url: 'https://onlineshop.itc-magia.com/items/17068239',
+    image: item2,
   },
   {
-    name: 'レーズンバターサンドショコラ　6個入り',
-    url: 'https://minifilm.base.shop/items/49076521',
-    image: minifilmItem3,
+    name: 'マドレーヌ ショコラ',
+    url: 'https://onlineshop.itc-magia.com/items/17068219',
+    image: item3,
   },
   {
-    name: 'ライチフランボワーズバターサンド　6個入り　【夏季限定】',
-    url: 'https://minifilm.base.shop/items/47661506',
-    image: minifilmItem4,
+    name: 'マドレーヌ プレーン',
+    url: 'https://onlineshop.itc-magia.com/items/31821046',
+    image: item4,
   },
   {
-    name: 'プラリネバターサンド ６個入り',
-    url: 'https://minifilm.base.shop/items/44425982',
-    image: minifilmItem5,
+    name: 'マドレーヌ レモン',
+    url: 'https://onlineshop.itc-magia.com/items/25785363',
+    image: item5,
   },
   {
-    name: 'レーズンバターサンド６個入り',
-    url: 'https://minifilm.base.shop/items/42136282',
-    image: minifilmItem6,
+    name: 'マドレーヌ ミックスフルーツ',
+    url: 'https://onlineshop.itc-magia.com/items/44780325',
+    image: item6,
   },
   {
-    name: 'ケークフリュイルージュ　【パウンドケーキ　ベリー】',
-    url: 'https://minifilm.base.shop/items/46359130',
-    image: minifilmItem7,
+    name: 'マドレーヌ メープル',
+    url: 'https://onlineshop.itc-magia.com/items/17068210',
+    image: item7,
   },
   {
-    name: 'フィナンシエ 単品',
-    url: 'https://minifilm.base.shop/items/43964273',
-    image: minifilmItem8,
+    name: 'マドレーヌ ラムレーズン',
+    url: 'https://onlineshop.itc-magia.com/items/17068231',
+    image: item8,
   },
 ];
 
