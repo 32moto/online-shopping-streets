@@ -13,18 +13,18 @@ const LINKS = [
     title: 'オンラインストアへ',
     url: 'https://ardeur.stores.jp/',
     right: 80,
-    top: 250,
+    top: 220,
   },
   {
     title: 'ARDEUR について',
     url: 'https://ardeur.stores.jp/about',
     left: 60,
-    top: 300,
+    top: 290,
   },
   {
     title: 'Instagram',
     url: 'https://www.instagram.com/ardeur.marubishi/',
-    right: 170,
+    right: 180,
     bottom: 120,
   },
 ];

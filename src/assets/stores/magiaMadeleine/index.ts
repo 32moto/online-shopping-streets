@@ -13,19 +13,19 @@ const LINKS = [
     title: 'オンラインストアへ',
     url: 'https://onlineshop.itc-magia.com/',
     right: 80,
-    top: 250,
+    top: 280,
   },
   {
-    title: 'マギーア マドレーヌについて',
+    title: 'マギーア マドレーヌ について',
     url: 'https://onlineshop.itc-magia.com/about',
     left: 60,
-    top: 300,
+    top: 330,
   },
   {
     title: 'Instagram',
     url: 'https://www.instagram.com/magia_madeleine',
     right: 170,
-    bottom: 150,
+    bottom: 80,
   },
 ];
 

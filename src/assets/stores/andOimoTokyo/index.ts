@@ -10,7 +10,7 @@ const LINKS = [
     top: 250,
   },
   {
-    title: 'News',
+    title: 'News ニュース',
     url: 'https://www.and-oimo-tokyo.com/news',
     left: 80,
     top: 300,

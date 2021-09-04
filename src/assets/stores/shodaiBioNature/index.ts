@@ -25,7 +25,7 @@ const LINKS = [
     title: 'Instagram',
     url: 'https://www.instagram.com/shodai.macaronse',
     right: 170,
-    bottom: 150,
+    bottom: 100,
   },
 ];
 

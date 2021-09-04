@@ -10,18 +10,18 @@ const LINKS = [
     title: 'オンラインストアへ',
     url: 'https://issenka.com/',
     right: 80,
-    top: 250,
+    top: 300,
   },
   {
     title: 'ISSENKA について',
     url: 'https://issenka.com/pages/issenka%E3%81%AE%E6%83%B3%E3%81%84',
     left: 60,
-    top: 300,
+    top: 250,
   },
   {
-    title: 'ニュース',
+    title: 'News ニュース',
     url: 'https://issenka.com/pages/news',
-    right: 170,
+    right: 200,
     bottom: 120,
   },
 ];

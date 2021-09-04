@@ -13,19 +13,19 @@ const LINKS = [
     title: 'オンラインストアへ',
     url: 'https://ec.patisserie-tomoji.com/',
     right: 80,
-    top: 250,
+    top: 280,
   },
   {
     title: 'Patisserie Tomoji について',
     url: 'https://www.patisserie-tomoji.com/about/',
     left: 60,
-    top: 300,
+    top: 340,
   },
   {
     title: '公式サイトへ',
     url: 'https://www.patisserie-tomoji.com/',
-    right: 170,
-    bottom: 150,
+    right: 150,
+    bottom: 120,
   },
 ];
 

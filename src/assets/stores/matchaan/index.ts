@@ -19,13 +19,13 @@ const LINKS = [
     title: '抹茶スイーツに合うオススメのお茶',
     url: 'https://matchaan.com/pages/%E8%8C%B6%E3%81%AE%E9%9B%AB%E3%81%A8%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84%E3%81%8C%E7%B9%94%E3%82%8A%E3%81%AA%E3%81%99%E3%83%9E%E3%83%AA%E3%82%A2%E3%83%BC%E3%82%B8%E3%83%A5',
     left: 60,
-    top: 320,
+    top: 330,
   },
   {
     title: 'Instagram',
     url: 'https://www.instagram.com/matchaan_official/',
-    right: 170,
-    bottom: 100,
+    right: 190,
+    bottom: 110,
   },
 ];
 

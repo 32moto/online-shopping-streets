@@ -19,7 +19,7 @@ const LINKS = [
     title: 'COCO KYOTO について',
     url: 'https://shop.coco-cacao.jp/about',
     left: 60,
-    top: 300,
+    top: 290,
   },
   {
     title: 'COCO KYOTO ブログ',
