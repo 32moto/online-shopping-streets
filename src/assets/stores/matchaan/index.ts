@@ -1,74 +1,74 @@
-import storeImage from '@/assets/stores/minifilm/storeImage/minifilm_image.png';
-import minifilmItem1 from '@/assets/stores/minifilm/itemImages/minifilm_item_1.jpeg';
-import minifilmItem2 from '@/assets/stores/minifilm/itemImages/minifilm_item_2.jpeg';
-import minifilmItem3 from '@/assets/stores/minifilm/itemImages/minifilm_item_3.jpeg';
-import minifilmItem4 from '@/assets/stores/minifilm/itemImages/minifilm_item_4.jpeg';
-import minifilmItem5 from '@/assets/stores/minifilm/itemImages/minifilm_item_5.jpeg';
-import minifilmItem6 from '@/assets/stores/minifilm/itemImages/minifilm_item_6.jpeg';
-import minifilmItem7 from '@/assets/stores/minifilm/itemImages/minifilm_item_7.jpeg';
-import minifilmItem8 from '@/assets/stores/minifilm/itemImages/minifilm_item_8.jpeg';
+import storeImage from '@/assets/stores/matchaan/storeImage/matchaan_image.png';
+import item1 from '@/assets/stores/matchaan/itemImages/matchaan_item_1.jpeg';
+import item2 from '@/assets/stores/matchaan/itemImages/matchaan_item_2.jpeg';
+import item3 from '@/assets/stores/matchaan/itemImages/matchaan_item_3.jpeg';
+import item4 from '@/assets/stores/matchaan/itemImages/matchaan_item_4.jpeg';
+import item5 from '@/assets/stores/matchaan/itemImages/matchaan_item_5.jpeg';
+import item6 from '@/assets/stores/matchaan/itemImages/matchaan_item_6.jpeg';
+import item7 from '@/assets/stores/matchaan/itemImages/matchaan_item_7.jpeg';
+import item8 from '@/assets/stores/matchaan/itemImages/matchaan_item_8.jpeg';
 
 const LINKS = [
   {
     title: 'オンラインストアへ',
-    url: 'https://minifilm.base.shop/',
+    url: 'https://matchaan.com/',
     right: 80,
-    top: 250,
+    top: 260,
   },
   {
-    title: 'Minifilm について',
-    url: 'https://minifilm.base.shop/about',
+    title: '抹茶スイーツに合うオススメのお茶',
+    url: 'https://matchaan.com/pages/%E8%8C%B6%E3%81%AE%E9%9B%AB%E3%81%A8%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84%E3%81%8C%E7%B9%94%E3%82%8A%E3%81%AA%E3%81%99%E3%83%9E%E3%83%AA%E3%82%A2%E3%83%BC%E3%82%B8%E3%83%A5',
     left: 60,
-    top: 300,
+    top: 320,
   },
   {
-    title: 'Youtube Channel',
-    url: 'https://www.youtube.com/c/TsukaTsukaMinifilm',
+    title: 'Instagram',
+    url: 'https://www.instagram.com/matchaan_official/',
     right: 170,
-    bottom: 150,
+    bottom: 100,
   },
 ];
 
 const ITEMS = [
   {
-    name: 'バターサンド4種詰め合わせ　8個入り　【9月限定】',
-    url: 'https://minifilm.base.shop/items/51441281',
-    image: minifilmItem1,
+    name: '【季節限定】はちみつレモンと抹茶レアチーズプリン',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/lemon-matcha',
+    image: item1,
   },
   {
-    name: 'フロマージュキュイ【ベイクドチーズケーキ】',
-    url: 'https://minifilm.base.shop/items/50523020',
-    image: minifilmItem2,
+    name: '抹茶のフォンダンショコラ 「世界一の抹茶の濃さを目指しました」',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/chocolat',
+    image: item2,
   },
   {
-    name: 'レーズンバターサンドショコラ　6個入り',
-    url: 'https://minifilm.base.shop/items/49076521',
-    image: minifilmItem3,
+    name: '抹茶庵 厳選プリン3種類セット',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/purine-set',
+    image: item3,
   },
   {
-    name: 'ライチフランボワーズバターサンド　6個入り　【夏季限定】',
-    url: 'https://minifilm.base.shop/items/47661506',
-    image: minifilmItem4,
+    name: 'キング抹茶ドラゴン(ティラミス抹茶パフェ)',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/king-dragon',
+    image: item4,
   },
   {
-    name: 'プラリネバターサンド ６個入り',
-    url: 'https://minifilm.base.shop/items/44425982',
-    image: minifilmItem5,
+    name: 'モンスターボアタルト 5個セット',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/boa-tarde',
+    image: item5,
   },
   {
-    name: 'レーズンバターサンド６個入り',
-    url: 'https://minifilm.base.shop/items/42136282',
-    image: minifilmItem6,
+    name: '抹茶バターケーキ 5個セット',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/%E6%8A%B9%E8%8C%B6%E3%83%90%E3%82%BF%E3%83%BC%E3%82%B1%E3%83%BC%E3%82%AD-5%E5%80%8B%E3%82%BB%E3%83%83%E3%83%88',
+    image: item6,
   },
   {
-    name: 'ケークフリュイルージュ　【パウンドケーキ　ベリー】',
-    url: 'https://minifilm.base.shop/items/46359130',
-    image: minifilmItem7,
+    name: 'お濃茶 抹茶プリン',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/okoi-purine',
+    image: item7,
   },
   {
-    name: 'フィナンシエ 単品',
-    url: 'https://minifilm.base.shop/items/43964273',
-    image: minifilmItem8,
+    name: 'モンスターボアタルト(抹茶のレアチーズタルト)',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/tarte',
+    image: item8,
   },
 ];
 
