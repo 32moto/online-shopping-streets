@@ -14,7 +14,7 @@ const StoreItemList: FC<{ items: StoreType['items'] }> = ({ items }) => {
     <Wrapper>
       <Panel>
         <Stack>
-          <ItemTitle>Items</ItemTitle>
+          <ItemTitle>商品一覧</ItemTitle>
           <ItemWrapper>
             <LineUp>
               {items.map((item, i) => (
@@ -38,7 +38,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const ItemTitle = styled.h2`
+const ItemTitle = styled.h3`
   align-self: flex-start;
   margin: 10px 30px;
 
