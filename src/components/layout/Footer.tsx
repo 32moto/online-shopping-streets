@@ -25,13 +25,3 @@ const Container = styled.div`
     padding: 0 20px;
   }
 `;
-
-// const ImageWrapper = styled.div`
-//   width: 30px;
-//   height: 30px;
-// `;
-//
-// const Title = styled.h3`
-//   font-size: 18px;
-//   margin-left: 10px;
-// `;

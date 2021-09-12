@@ -8,8 +8,8 @@ import COLORS from '@/constants/colors';
 import MEDIA_QUERY from '@/constants/mediaQuery';
 
 const Top: FC = () => {
-  const targets = ['友達', '家族'];
-  const no = Math.floor(Math.random() * targets.length);
+  // const targets = ['友達', '家族'];
+  // const no = Math.floor(Math.random() * targets.length);
 
   return (
     <Container>
@@ -17,14 +17,14 @@ const Top: FC = () => {
         <Title>
           オンラインで
           <br />
-          {targets[no]}と買い物に
+          友達と買い物に
         </Title>
         <LinkButton
           href="https://calendly.com/online-shopping-streets/sweets"
           target="_blank"
           rel="noopener noreferrer"
         >
-          参加申し込みする
+          無料で参加申し込みする
         </LinkButton>
       </TextWrapper>
       <ImageWrapper>
@@ -85,7 +85,7 @@ const LinkButton = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 300px;
   padding: 15px 40px;
   box-sizing: border-box;
   background-color: rgba(255, 56, 119, 1);
