@@ -11,8 +11,6 @@ import TEXTS from '@/constants/texts';
 import ogpImage from '@/assets/branding/ogp.png';
 
 const Root: NextPage = () => {
-  console.log(ogpImage);
-
   return (
     <>
       <Head>
