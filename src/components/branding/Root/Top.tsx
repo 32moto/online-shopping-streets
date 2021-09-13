@@ -56,7 +56,7 @@ const Container = styled.div`
     url(${background.src}) no-repeat scroll top / cover;
 
   @media ${MEDIA_QUERY.TABLET} {
-    height: calc(100vh - 60px - 115px);
+    height: calc(100vh - 60px);
     flex-direction: column-reverse;
   }
 `;
