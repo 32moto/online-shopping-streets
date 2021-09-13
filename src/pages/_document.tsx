@@ -46,6 +46,12 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:wght@400;700&display=swap"
             rel="stylesheet"
           />
+          <link href="/favicon.ico" rel="shortcut icon" />
+          <link
+            href="/apple-touch-icon.png"
+            rel="apple-touch-icon"
+            sizes="180x180"
+          />
         </Head>
         <body>
           <Main />
