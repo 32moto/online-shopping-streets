@@ -12,25 +12,31 @@ const Top: FC = () => {
   // const no = Math.floor(Math.random() * targets.length);
 
   return (
-    <Container>
-      <TextWrapper>
-        <Title>
-          オンラインで
-          <br />
-          友達と買い物に
-        </Title>
-        <LinkButton
-          href="https://calendly.com/online-shopping-streets/sweets"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          無料で参加申し込みする
-        </LinkButton>
-      </TextWrapper>
-      <ImageWrapper>
-        <Image src={topImage} placeholder="blur" />
-      </ImageWrapper>
-    </Container>
+    <>
+      <Container>
+        <TextWrapper>
+          <Title>
+            オンラインで
+            <br />
+            友達と買い物に
+          </Title>
+          <LinkButton
+            href="https://calendly.com/online-shopping-streets/sweets"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            無料で参加申し込みする
+          </LinkButton>
+        </TextWrapper>
+        <ImageWrapper>
+          <Image src={topImage} placeholder="blur" />
+        </ImageWrapper>
+      </Container>
+      <CampaignLine>
+        【プレゼントキャンペーン】
+        9/25(土)、26(日)のオンライン商店街でお買い物いただいた方から、抽選で10組にAmazonギフト券（1,000円）をプレゼント！
+      </CampaignLine>
+    </>
   );
 };
 
@@ -40,7 +46,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 60px - 44px);
   background: linear-gradient(
       30deg,
       rgba(253, 158, 29, 0.95) 0%,
@@ -50,6 +56,7 @@ const Container = styled.div`
     url(${background.src}) no-repeat scroll top / cover;
 
   @media ${MEDIA_QUERY.TABLET} {
+    height: calc(100vh - 60px - 115px);
     flex-direction: column-reverse;
   }
 `;
@@ -114,4 +121,16 @@ const ImageWrapper = styled.div`
     margin-top: 0px;
     width: 90%;
   }
+`;
+
+const CampaignLine = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f7931e;
+  font-weight: bold;
+  color: ${COLORS.WHITE};
 `;

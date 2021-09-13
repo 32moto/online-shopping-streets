@@ -23,7 +23,6 @@ const Event: FC = () => {
                 <CampaignTitle>プレゼントキャンペーン</CampaignTitle>
                 <CampaignDescription>
                   今回のオンライン商店街経由でお買い物をすると、
-                  <br />
                   抽選で10組の方に Amazon ギフト券(1,000円)をプレゼント！
                 </CampaignDescription>
               </CampaignWrapper>
@@ -63,13 +62,17 @@ const Title = styled.h2`
 
 const Ul = styled.ul`
   list-style: none;
-  margin: 0;
+  margin: 10px 0 20px;
   padding: 0;
 `;
 
 const Li = styled.li`
   display: flex;
   align-items: center;
+
+  @media ${MEDIA_QUERY.SP} {
+    flex-direction: column;
+  }
 `;
 
 const ImageWrapper = styled.div`
@@ -79,23 +82,41 @@ const ImageWrapper = styled.div`
   > div > img {
     border-radius: 6px;
   }
+
+  @media ${MEDIA_QUERY.SP} {
+    margin: 10px;
+  }
 `;
 
 const TextWrapper = styled.div`
   margin: 20px;
+
+  @media ${MEDIA_QUERY.SP} {
+    margin: 0 20px;
+  }
 `;
 
 const EventTitle = styled.h3`
   font-size: 24px;
   margin: 0;
+
+  @media ${MEDIA_QUERY.SP} {
+    font-size: 20px;
+  }
 `;
 
 const DescriptionWrapper = styled.div`
   margin: 5px 0;
+  max-width: 510px;
 `;
 
 const Date = styled.p`
   margin: 0;
+  font-weight: bold;
+
+  @media ${MEDIA_QUERY.SP} {
+    font-size: 15px;
+  }
 `;
 
 const CampaignWrapper = styled.div`
@@ -108,13 +129,21 @@ const CampaignTitle = styled.h4`
   margin: 0;
   background-color: #f7931e;
   border-radius: 8px 8px 0 0;
-  padding: 5px 10px;
+  padding: 3px 10px;
   color: ${COLORS.WHITE};
+
+  @media ${MEDIA_QUERY.SP} {
+    font-size: 16px;
+  }
 `;
 
 const CampaignDescription = styled.p`
   margin: 0;
-  padding 10px;
+  padding: 10px;
+
+  @media ${MEDIA_QUERY.SP} {
+    font-size: 14px;
+  }
 `;
 
 const LinkButton = styled.a`
