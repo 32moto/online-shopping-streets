@@ -5,6 +5,7 @@ import Top from '@/components/branding/Root/Top';
 import Introduction from '@/components/branding/Root/Introduction';
 import Recommend from '@/components/branding/Root/Recommend';
 import Event from '@/components/branding/Root/Event';
+import Note from '@/components/branding/Root/Note';
 import Contact from '@/components/branding/Root/Contact';
 
 import TEXTS from '@/constants/texts';
@@ -36,6 +37,7 @@ const Root: NextPage = () => {
       <Introduction />
       <Recommend />
       <Event />
+      <Note />
       <Contact />
     </>
   );
