@@ -34,7 +34,7 @@ const StartGuide: FC = () => {
         </ContentWrapper>
       </Wrapper>
       <Wrapper>
-        <SubTitle>利用の流れ</SubTitle>
+        <SubTitle id="start_guide">利用の流れ</SubTitle>
         <ContentWrapper>
           <ItemWrapper>
             <Image src={startImage1} placeholder="blur" />
@@ -69,13 +69,17 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin: 60px 20px;
+
+  @media ${MEDIA_QUERY.SP} {
+    margin: 20px;
+  }
 `;
 
 const Title = styled.h2`
   font-size: 26px;
   padding: 10px 30px;
   border-bottom: 2px solid;
-  margin-top: 80px;
+  margin-top: 60px;
 
   @media ${MEDIA_QUERY.SP} {
     font-size: 20px;
@@ -89,6 +93,7 @@ const SubTitle = styled.h3`
   justify-content: center;
   align-items: center;
   color: #6f6f6f;
+  padding-top: 10px;
 `;
 
 const ContentWrapper = styled.div`
@@ -117,6 +122,10 @@ const ItemWrapper = styled.div`
     width: calc(100% - 20px);
     max-width: 500px;
     margin: 10px;
+  }
+
+  @media ${MEDIA_QUERY.SP} {
+    font-size: 14px;
   }
 `;
 
