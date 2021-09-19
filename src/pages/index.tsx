@@ -10,6 +10,7 @@ import Contact from '@/components/branding/Root/Contact';
 
 import TEXTS from '@/constants/texts';
 import ogpImage from '@/assets/branding/ogp.png';
+import StartGuide from '@/components/branding/Root/StartGuide';
 
 const Root: NextPage = () => {
   return (
@@ -37,6 +38,7 @@ const Root: NextPage = () => {
       <Introduction />
       <Recommend />
       <Event />
+      <StartGuide />
       <Note />
       <Contact />
     </>
