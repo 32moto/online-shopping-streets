@@ -37,8 +37,8 @@ const ITEMS = [
     image: item1,
   },
   {
-    name: 'マドレーヌレモン6個入',
-    url: 'https://shop.coco-cacao.jp/items/43468952',
+    name: 'カカオフルーツチーズケーキ【６個入り】',
+    url: 'https://shop.coco-cacao.jp/items/21174625',
     image: item2,
   },
   {

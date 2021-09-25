@@ -32,11 +32,6 @@ const LINKS = [
 
 const ITEMS = [
   {
-    name: '【季節限定】はちみつレモンと抹茶レアチーズプリン',
-    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/lemon-matcha',
-    image: item1,
-  },
-  {
     name: '抹茶のフォンダンショコラ 「世界一の抹茶の濃さを目指しました」',
     url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/chocolat',
     image: item2,
@@ -65,6 +60,11 @@ const ITEMS = [
     name: 'お濃茶 抹茶プリン',
     url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/okoi-purine',
     image: item7,
+  },
+  {
+    name: '琥珀棒茶プリン',
+    url: 'https://matchaan.com/collections/%E6%8A%B9%E8%8C%B6%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84/products/kohaku-purine',
+    image: item1,
   },
   {
     name: 'モンスターボアタルト(抹茶のレアチーズタルト)',
