@@ -62,8 +62,8 @@ const ITEMS = [
     image: item6,
   },
   {
-    name: 'マドレーヌ メープル',
-    url: 'https://onlineshop.itc-magia.com/items/17068210',
+    name: 'マドレーヌ コーヒー',
+    url: 'https://onlineshop.itc-magia.com/items/28971042',
     image: item7,
   },
   {
