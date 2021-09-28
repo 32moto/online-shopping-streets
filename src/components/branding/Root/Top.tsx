@@ -20,13 +20,13 @@ const Top: FC = () => {
             <br />
             友達と買い物に
           </Title>
-          <LinkButton
-            href="https://calendly.com/online-shopping-streets/sweets"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            無料で参加申し込みする
-          </LinkButton>
+          {/*<LinkButton*/}
+          {/*  href="https://calendly.com/online-shopping-streets/sweets"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*>*/}
+          {/*  無料で参加申し込みする*/}
+          {/*</LinkButton>*/}
         </TextWrapper>
         <ImageWrapper>
           <Image src={topImage} placeholder="blur" />
@@ -88,26 +88,26 @@ const Title = styled.h2`
   }
 `;
 
-const LinkButton = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  padding: 15px 40px;
-  box-sizing: border-box;
-  background-color: rgba(255, 56, 119, 1);
-  border-radius: 30px;
-  font-size: 18px;
-  font-weight: bold;
-  color: ${COLORS.WHITE};
-  text-decoration: none;
-  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease;
-
-  &:hover {
-    background-color: rgba(222, 27, 88, 1);
-  }
-`;
+// const LinkButton = styled.a`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 300px;
+//   padding: 15px 40px;
+//   box-sizing: border-box;
+//   background-color: rgba(255, 56, 119, 1);
+//   border-radius: 30px;
+//   font-size: 18px;
+//   font-weight: bold;
+//   color: ${COLORS.WHITE};
+//   text-decoration: none;
+//   box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.2);
+//   transition: all 0.2s ease;
+//
+//   &:hover {
+//     background-color: rgba(222, 27, 88, 1);
+//   }
+// `;
 
 const ImageWrapper = styled.div`
   width: 600px;

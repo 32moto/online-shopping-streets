@@ -19,24 +19,18 @@ const Event: FC = () => {
             <EventTitle>お取り寄せスイーツが集まる オンライン商店街</EventTitle>
             <DescriptionWrapper>
               <Date>開催日時：2021/9/25(土)、26(日) 12:00 〜 24:00</Date>
-              <CampaignWrapper>
-                <CampaignTitle>プレゼントキャンペーン</CampaignTitle>
-                <CampaignDescription>
-                  今回のオンライン商店街経由でお買い物をすると、
-                  抽選で10組の方に Amazon ギフト券(1,000円)をプレゼント！
-                </CampaignDescription>
-              </CampaignWrapper>
+              <CloseTitle>開催終了しました</CloseTitle>
             </DescriptionWrapper>
           </TextWrapper>
         </Li>
       </Ul>
-      <LinkButton
-        href="https://calendly.com/online-shopping-streets/sweets"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        無料で参加申し込みする
-      </LinkButton>
+      {/*<LinkButton*/}
+      {/*  href="https://calendly.com/online-shopping-streets/sweets"*/}
+      {/*  target="_blank"*/}
+      {/*  rel="noopener noreferrer"*/}
+      {/*>*/}
+      {/*  無料で参加申し込みする*/}
+      {/*</LinkButton>*/}
     </Container>
   );
 };
@@ -119,50 +113,53 @@ const Date = styled.p`
   }
 `;
 
-const CampaignWrapper = styled.div`
-  margin: 10px 0;
-  border: 3px solid #f7931e;
-  border-radius: 12px;
-`;
+// const CampaignWrapper = styled.div`
+//   margin: 10px 0;
+//   border: 3px solid #f7931e;
+//   border-radius: 12px;
+// `;
 
-const CampaignTitle = styled.h4`
-  margin: 0;
-  background-color: #f7931e;
-  border-radius: 8px 8px 0 0;
+const CloseTitle = styled.h4`
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  width: 130px;
+  border: 3px solid #e13729;
+  color: #e13729;
+  border-radius: 8px;
   padding: 3px 10px;
-  color: ${COLORS.WHITE};
 
   @media ${MEDIA_QUERY.SP} {
     font-size: 16px;
   }
 `;
 
-const CampaignDescription = styled.p`
-  margin: 0;
-  padding: 10px;
+// const CampaignDescription = styled.p`
+//   margin: 0;
+//   padding: 10px;
+//
+//   @media ${MEDIA_QUERY.SP} {
+//     font-size: 14px;
+//   }
+// `;
 
-  @media ${MEDIA_QUERY.SP} {
-    font-size: 14px;
-  }
-`;
-
-const LinkButton = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  padding: 15px 40px;
-  box-sizing: border-box;
-  background-color: rgba(255, 56, 119, 1);
-  border-radius: 30px;
-  font-size: 18px;
-  font-weight: bold;
-  color: ${COLORS.WHITE};
-  text-decoration: none;
-  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease;
-
-  &:hover {
-    background-color: rgba(222, 27, 88, 1);
-  }
-`;
+// const LinkButton = styled.a`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 300px;
+//   padding: 15px 40px;
+//   box-sizing: border-box;
+//   background-color: rgba(255, 56, 119, 1);
+//   border-radius: 30px;
+//   font-size: 18px;
+//   font-weight: bold;
+//   color: ${COLORS.WHITE};
+//   text-decoration: none;
+//   box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.2);
+//   transition: all 0.2s ease;
+//
+//   &:hover {
+//     background-color: rgba(222, 27, 88, 1);
+//   }
+// `;
